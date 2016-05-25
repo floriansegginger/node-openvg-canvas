@@ -23,13 +23,13 @@
         "V8_CALLBACK_STYLE_<(callback_style)"
       ],
       "ldflags": [
-        "<!@(freetype-config --libs)"
+        "<!@(/home/kevin/PMW/pi/rpi-buildroot-pmw/output/host/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/bin/freetype-config --libs)"
       ],
       "cflags": [
         "-DENABLE_GDB_JIT_INTERFACE",
         "-DBUILDING_NODE_EXTENSION",
         "-Wall",
-        "<!@(freetype-config --cflags)"
+        "<!@(/home/kevin/PMW/pi/rpi-buildroot-pmw/output/host/usr/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/bin/freetype-config --cflags)"
       ]
     },
     {
